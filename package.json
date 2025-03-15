@@ -1,0 +1,24 @@
+{
+  "name": "lnxbuybot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "prestart": "node setup_assets.js",
+    "start": "node bot.js",
+    "setup": "npm install && node setup_assets.js",
+    "debug:token": "node debug.js",
+    "check": "node check-bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "axios": "^1.8.3",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.13.5",
+    "telegraf": "^4.16.3"
+  }
+}
