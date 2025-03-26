@@ -4,7 +4,7 @@ const { Telegraf } = require('telegraf');
 require('dotenv').config();
 
 // Get bot token
-const token = process.env.BOT_TOKEN || '8144530221:AAEIbFAzCYEbRvrz5aZxH-BpgJ9HnJZzkp4';
+const token = process.env.BOT_TOKEN || '{BotToken}';
 
 async function checkBot() {
   try {
